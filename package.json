@@ -1,0 +1,26 @@
+{
+  "name": "Hit the road",
+  "description": "Lets you easily explore street view",
+  "version": "1.0",
+  "keywords": [
+    "google",
+    "javascript",
+    "maps"
+  ],
+  "files": [],
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build --outDir dist --base './'",
+    "test": "tsc --no-emit",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.55.3",
+    "@types/node": "^20.11.20",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12"
+  },
+  "private": true
+}

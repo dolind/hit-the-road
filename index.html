@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Hit the Road</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.ts"></script>
+  </head>
+  <body>
+    <div id="statusBox"></div>
+    
+    <button id="uiToggleBtn">UI</button>
+    <div id="actionButtonsContainer">
+    <button class="action-btn" data-action="w">Accelerate ('W')</button>
+    <button class="action-btn" data-action="r">Brake ('R')</button>
+    <button class="action-btn" data-action="Space">Toggle Auto Move ('Space')</button>
+    <button class="action-btn" data-action="q">Reset ('Q')</button>
+    <button class="action-btn" data-action="p">Toggle Auto Rotate ('P')</button>
+    <button class="action-btn" data-action="g">Increase Update Rate ('G')</button>
+    <button class="action-btn" data-action="d">Decrease Update Rate ('D')</button>
+    </div>
+    <div id="toast-container"></div>
+
+    <div id="map"></div>
+    <div id="pano0"></div>
+    <div id="pano1"></div>
+    <div id="pano2"></div>
+    <div id="pano3"></div>
+      <div id="inputBox">
+      <input type="text" id="placeInput" placeholder="Enter a place" style="width: calc(100% - 16px); margin-bottom: 8px;">
+      <button id="findPanoramaBtn" style="width: 100%;">Go there!</button>
+  </div>
+
+  </body>
+</html>
